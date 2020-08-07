@@ -7,3 +7,4 @@ export * from './microphone';
 export * from './video';
 export * from './wifi';
 export * from './star';
+export * from './download';
