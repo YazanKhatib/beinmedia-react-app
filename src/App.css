@@ -1,3 +1,14 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Loew';
+}
+
+#root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +46,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'LoewNextArabic';
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicBlack';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Black.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicBold';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicExtraBold';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-ExtraBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicHeavy';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Heavy.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicLight';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicMedium';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LoewNextArabicThin';
+  font-weight: 900;
+  src: local('Loew'),
+    url(../src/assets/fonts/Loew-Next-Arabic-Thin.otf) format('opentype');
 }
